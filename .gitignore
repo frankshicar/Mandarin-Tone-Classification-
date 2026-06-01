@@ -1,0 +1,30 @@
+# Local tooling and environments
+.codegraph/
+.venv/
+.env
+.env.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Datasets, generated artifacts, and model outputs
+/data/
+/output/
+/runs/
+/tmp/
+/logs/
+/wandb/
+/checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.npz
+
+# Local notes and copyrighted reference material
+/session.txt
+/hearing_paper/*.pdf
